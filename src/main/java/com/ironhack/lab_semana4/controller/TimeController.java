@@ -20,6 +20,7 @@ public class TimeController {
 
     @GetMapping("/date")
     public String getCurrentDate() {
+        System.out.println("Endpoint /time llamado");
         return timeService.getCurrentDate();
     }
 
