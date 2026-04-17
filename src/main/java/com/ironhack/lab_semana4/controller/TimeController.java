@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TimeController {
 
     private final TimeService timeService;
-// Controlador para el servicio de tiempo
+//Controlador para el servicio de tiempo
     public TimeController(TimeService timeService){
         this.timeService = timeService;
         }
