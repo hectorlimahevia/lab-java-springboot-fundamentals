@@ -1,0 +1,33 @@
+
+### Hello World
+GET http://localhost:8080/hello
+
+### Hello with name
+GET http://localhost:8080/hello/Hector
+
+### Add
+GET http://localhost:8080/add/5/7
+
+### Multiply
+GET http://localhost:8080/multiply/4/6
+
+### Weather temperature
+GET http://localhost:8080/weather/temperature
+
+### Weather condition
+GET http://localhost:8080/weather/condition
+
+### Weather windspeed
+GET http://localhost:8080/weather/windspeed
+
+### Weather all
+GET http://localhost:8080/weather/all
+
+### Time
+GET http://localhost:8080/time
+
+### Date
+GET http://localhost:8080/date
+
+### Datetime
+GET http://localhost:8080/dateofweek
