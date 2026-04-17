@@ -7,6 +7,7 @@ import java.util.Random;
 @Service
 public class WeatherService {
 
+    //
     private final Random random = new Random();
 
     //Metodo para la temperatura
