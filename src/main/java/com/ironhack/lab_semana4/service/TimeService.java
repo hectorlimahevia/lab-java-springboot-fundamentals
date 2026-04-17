@@ -9,7 +9,7 @@ import java.util.Locale;
 
 @Service
 public class TimeService {
-
+   //Metodos del ejercicio
     public String getCurrentTime() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
         return LocalTime.now().format(formatter);
